@@ -1,0 +1,139 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    background-color: #1f2937;
+    margin: 0px;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 150px 90px 150px;
+    align-content: space-between;
+}
+.toptop{
+    flex: 1 0 100%;
+    display: flex;
+    padding: 20px;
+}
+.toptop h3{
+    color: #e5e7eb;
+    font-size: 24px;
+    flex: 1;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    justify-content: flex-start;
+}
+li{
+    font-size: 18px;
+    color: #e5e7eb;
+    line-height: 50px;
+}
+.top-left{
+    flex-basis: 60%;
+}
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.top-left p{
+    color: #f9faf8;
+}
+button, .inBlue{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 60px;
+    border: 0px;
+}
+.somephoto img{
+    width: 400px;
+    height: auto;    
+}
+.info h3{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 150px;
+    justify-content: center;
+    gap: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info h3{
+    flex: 1 0 100%;
+    text-align: center;
+}
+.box{
+    border: 1px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+}
+.infotext{
+    width: 100px;
+    text-align: center;
+}
+.inspire{
+    background-color: #e5e7eb;
+    padding: 200px;
+
+}
+.inspire>:first-child{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.inspire .dude{
+    text-align:right;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.action{
+    margin: 100px;
+    flex: 1;
+    padding: 10px 150px;
+}
+.bigblue{
+    background-color: #3882f6;
+    margin-top: 0px;
+    padding: 30px 60px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.bigblue>*{
+    color: #f9faf8;
+}
+
+.inWhite{
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 60px;
+}
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    line-height: 75px;
+    height: 75px;
+}
